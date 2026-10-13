@@ -1,0 +1,22 @@
+{
+    "name": "juan_fierro/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Fierro",
+            "email": "juan_fierro@unicomer.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "3.9",
+        "vlucas/phpdotenv": "^5.7"
+    }
+}
